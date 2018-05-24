@@ -1,6 +1,6 @@
 Тестовое задание  
 
-1) Скачиваем исходники выполненого задания из репозитория: git clone [git@gitlab.1n9.ru:blackcat/test_task.git](git@gitlab.1n9.ru:blackcat/test_task.git)  
+1) Скачиваем исходgit ники выполненого задания из репозитория: git clone [https://github.com/okatkov/test_task](https://github.com/okatkov/test_task)  
 2) Запускаем сборку докера: cd test_task && docker-compose up -d  
 3) Устанавливаем необходимые пакеты: cd www && composer install  
 4) Формируем файл конфигурации: cp .env.example .env  
@@ -19,7 +19,7 @@ curl -v http://localhost:8080?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWI
     
 строка  
 
-        token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.ZVPJFWdvf72Hj6MX7tEPbDDF0pPKXZ8qgZ5JcMy6oBU&points={"a":"Москва , Россия","b":"Краснодар, Краснодарский край, Россия"}&price=234
+     token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.ZVPJFWdvf72Hj6MX7tEPbDDF0pPKXZ8qgZ5JcMy6oBU&points={"a":"Москва , Россия","b":"Краснодар, Краснодарский край, Россия"}&price=234
         
 преобразованная функцией urlencode
 

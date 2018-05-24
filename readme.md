@@ -1,6 +1,6 @@
 Тестовое задание  
 
-1) Скачиваем исходgit ники выполненого задания из репозитория: git clone [https://github.com/okatkov/test_task](https://github.com/okatkov/test_task)  
+1) Скачиваем исходники выполненого задания из репозитория: git clone [https://github.com/okatkov/test_task](https://github.com/okatkov/test_task)  
 2) Запускаем сборку докера: cd test_task && docker-compose up -d  
 3) Устанавливаем необходимые пакеты: cd www && composer install  
 4) Формируем файл конфигурации: cp .env.example .env  
